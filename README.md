@@ -7,10 +7,10 @@ In this case study, I will perform many real-world tasks of a junior data analys
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) 
 
 SQL Queries:
-1. Data Merging
-2. Data Exploration
-3. Data Cleaning
-4. Data Analysis
+1. [Data Merging](PP2_Data_Merging.sql)
+2. [Data Exploration](PP2_Data_Exploration.sql)
+3. [Data Cleaning](PP2_Data_Cleaning.sql)
+4. [Data Analysis](PP2_Data_Analysis.sql)
 
 Data Visualizations: [Tableau](https://public.tableau.com/views/PP2_17050994902820/Sheet5?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
@@ -56,12 +56,12 @@ BigQuery is used to combine the various datasets into one dataset and clean it.
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has millions of rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
 
 ### Merging the Data
-**SQL Query:** Data Merging
+**SQL Query:** [Data Merging](PP2_Data_Merging.sql)
 
 12 csv files are uploaded as tables in the dataset '2020_cyclistic_data'. Another table named "2020_cyclistic_merged_data" is created, containing 3,216,430 rows of data for the entire year.
 
 ## Data Exploration
-**SQL Query:** Data Exploration
+**SQL Query:** [Data Exploration](PP2_Data_Exploration.sql)
 
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.
 
@@ -97,7 +97,7 @@ There are no duplicate rows in the data.
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map
 
 ## Data Cleaning
-**SQL Query:** Data Cleaning
+**SQL Query:** [Data Cleaning](PP2_Data_Cleaning.sql)
 
 1. All the rows having missing values are deleted.
 2. 3 more columns *ride_length* for duration of the trip, *day_of_week* and *month* are added.
@@ -105,7 +105,7 @@ There are no duplicate rows in the data.
 4. Millions of rows were removed in this step.
 
 ## Analyze and Share
-**SQL Query:** Data Analysis
+**SQL Query:** [Data Analysis](PP2_Data_Analysis.sql)
 
 **Data Visualization:** [Tableau](https://public.tableau.com/views/PP2_17050994902820/Sheet5?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
