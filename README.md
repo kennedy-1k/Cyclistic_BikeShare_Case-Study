@@ -117,7 +117,7 @@ First of all, member and casual riders are compared by the type of bikes they ar
 
 <img width="286" alt="image" src="https://github.com/kennedy-1k/Cyclistic_BikeShare_Case-Study/assets/107962983/72092174-5da9-49b5-a329-1036bc914661">
 
-Each bike type chart shows percentage from the total. Most used bike is classic bike followed by the electric bike. Docked bikes are used the least by only casual riders.
+Each bike type chart shows percentage from the total. Most used bike is Docked Bike followed by the Electric bike. Classic bikes are used the least by only casual riders.
 
 Next the number of trips distributed by the months and ays of the week are examined.
 <img width="908" alt="image" src="https://github.com/kennedy-1k/Cyclistic_BikeShare_Case-Study/assets/107962983/a9361cc3-19c1-4ede-9975-cf6dc0c67587">
