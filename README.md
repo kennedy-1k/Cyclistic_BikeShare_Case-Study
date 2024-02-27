@@ -123,7 +123,7 @@ Next the number of trips distributed by the months and days of the week are exam
 <img width="908" alt="image" src="https://github.com/kennedy-1k/Cyclistic_BikeShare_Case-Study/assets/107962983/a9361cc3-19c1-4ede-9975-cf6dc0c67587">
 <img width="939" alt="image" src="https://github.com/kennedy-1k/Cyclistic_BikeShare_Case-Study/assets/107962983/e5f262f3-e079-47aa-8639-ac3de91bbf63">
 
-**Months:** When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summmer.
+**Months:** When it comes to monthly trips, both casual and members exhibit comparable behavior, with more trips in the spring and summer and fewer in the winter. The gap between casuals and members is closest in the month of july in summer.
 
 **Days of Week:** When the days of the week are compared, it is discovered that casual riders make more journeys on the weekends while members show a decline over the weekend in contrast to the other days of the week.
 
